@@ -5,7 +5,7 @@
     margin: 0;
     border: 0;
     padding: 0;
-    background-color: rgb(49, 32, 26);
+    background-color: #31201a;
     color: white;
 }
 
@@ -62,7 +62,7 @@ button:hover {
 
 .mainContentContent > button {
     background-color: #ffc260;
-    color: black;
+    color: #31201a;
     font-family: "Kaushan Script", cursive;
     font-size: large;
     font-weight: bold;
@@ -89,6 +89,7 @@ h1 {
     padding-right: 5em;
     padding-top: 3em;
     width: 50vw;
+    border-right: 5px solid #ffc260;
 }
 
 .aboutContent > p {
@@ -101,4 +102,10 @@ h1 {
     background-image: url('assets/mexico.jpg');
     background-size: cover;
     
+}
+
+.foot {
+    height: 5vh;
+    width: 100%;
+    background-color: #1f130f;
 }
