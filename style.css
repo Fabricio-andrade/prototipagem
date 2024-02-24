@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: rgb(49, 32, 26);
+    color: white;
+}
+
+.head {
+    
+    display: flex;
+    align-items: center;
+    padding: 0 5em;
+    height: 4em;
+    width: 100%;
+    background: none;
+}
+
+.head > button {
+    font-family: "Kaushan Script", cursive;
+    font-size: larger;
+    margin: 0 3em;
+    color: white;
+}
+
+button:hover {
+    color: #ffc260;
+    cursor: pointer;
+}
+
+.head > img {
+    height: 3em;
+}
+
+.role {
+    font-family: "Kaushan Script", cursive;
+    font-size: larger;
+    text-align: center;
+    margin-top: 0.5em;
+    color: #ffc260;
+}
+
+.mainContent {
+    width: 99.1vw;
+    height: 88vh;
+    background-image: url('./assets/coffee.jpg');
+    background-size: cover;
+    background-position: 0;
+}
+
+.mainContentContent {
+    background: none;
+    font-family: "Kaushan Script", cursive;
+    padding-top: 5em;
+    padding-right: 5em;
+    font-size: 3em;
+    text-align: right;
+}
+
+.mainContentContent > button {
+    background-color: #ffc260;
+    color: black;
+    font-family: "Kaushan Script", cursive;
+    font-size: large;
+    font-weight: bold;
+    padding: 1em;
+    border-radius: 5%;
+}
+
+h1 {
+    background: none;
+}
+
+.mainAbout {
+    display: flex;
+    margin-top: 2em;
+}
+
+.aboutContent > h3 {
+    font-family: "Kaushan Script", cursive;
+    margin-bottom: 1em;
+}
+
+.aboutContent {
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 3em;
+    width: 50vw;
+}
+
+.aboutContent > p {
+    font-size: larger;
+}
+
+.aboutImg {
+    width: 50vw;
+    height: 50vh;
+    background-image: url('assets/mexico.jpg');
+    background-size: cover;
+    
+}
